@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set full-page height and font */
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh; /* Full viewport height */
+    background-image: url('pozadina2.jpg'); /* Add a background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    padding: 1rem 2rem;
+    background-color: lightblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: lightskyblue;
+}
+
+/* About Section */
+.about {
+    padding: 4rem 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 1.5rem auto;
+}
+
+/* Footer */
+footer {
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
